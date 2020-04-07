@@ -5,13 +5,13 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>2.2.5.RELEASE</version>
+		<version>2.2.4.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.infy</groupId>
-	<artifactId>Employee</artifactId>
+	<groupId>com.telusko</groupId>
+	<artifactId>mywebapp</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>Application-1</name>
+	<name>mywebapp</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
@@ -23,29 +23,13 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
-		
- <!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-databind -->
-<dependency>
-    <groupId>com.fasterxml.jackson.core</groupId>
-    <artifactId>jackson-databind</artifactId>
-    <version>2.10.2</version>
-</dependency>
- 
-   <!-- https://mvnrepository.com/artifact/org.apache.tomcat/tomcat-jasper -->
+		<!-- https://mvnrepository.com/artifact/org.apache.tomcat/tomcat-jasper -->
 <dependency>
     <groupId>org.apache.tomcat</groupId>
     <artifactId>tomcat-jasper</artifactId>
-    <version>9.0.31</version>
+    <version>9.0.30</version>
 </dependency>
-   
-   <!-- https://mvnrepository.com/artifact/com.googlecode.json-simple/json-simple -->
-<dependency>
-    <groupId>com.googlecode.json-simple</groupId>
-    <artifactId>json-simple</artifactId>
-    <version>1.1.1</version>
-</dependency>
-   
-
+		
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
